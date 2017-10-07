@@ -19,6 +19,7 @@ header {
 .site-title {
 	order: 1;
 	flex: 0 1 auto;
+	align-self: auto;
 	height: auto;
 	width: auto;
 	margin: auto;
@@ -31,6 +32,7 @@ header {
 .tagline {
 	order: 2;
 	flex: 0 1 auto;
+	align-self: auto;
 	height: auto;
 	width: auto;
 	margin: auto;
