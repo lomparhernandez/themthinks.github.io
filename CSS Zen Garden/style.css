@@ -7,15 +7,18 @@ body {
 }
 
 header {
+	display: flex;
+	flex-flow: column;
 	background-color: rgba(40, 167, 255, 1);
 	background-image: url("https://cdn.pixabay.com/photo/2017/09/26/16/32/autumn-2789234_960_720.jpg");
 	background-size: cover;
 	height: 30vh;
-	color: white;
+	color: #FFFFFF;
 }
 
 .site-title {
-	display: block;
+	order: 1;
+	flex: 0 1 auto;
 	height: auto;
 	width: auto;
 	margin: auto;
@@ -26,7 +29,8 @@ header {
 }
 
 .tagline {
-	display: block;
+	order: 2;
+	flex: 0 1 auto;
 	height: auto;
 	width: auto;
 	margin: auto;
