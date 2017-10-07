@@ -74,3 +74,7 @@ header {
 p {
 	padding: 7px 0px !important;
 }
+
+.sidebar-nav {
+	margin: 5px auto;
+}
